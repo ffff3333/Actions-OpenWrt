@@ -11,5 +11,4 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.7.252/g' package/base-files/files/bin/config_generate
-git clone https://github.com/kuoruan/openwrt-v2ray.git package/v2ray-core
+sed -i 's/192.168.1.1/192.168.105.251/g' package/base-files/files/bin/config_generate
